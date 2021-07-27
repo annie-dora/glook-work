@@ -4,17 +4,17 @@
     <div class="margin">
        <nuxt />
     </div>
-   <footer/>
+   <Footer/>
   </div>
 </template>
 
 <script>
 import navbar from "@/components/navbar.vue"
-import footer from "@/components/footer.vue"
+import Footer from "@/components/Footer.vue"
 export default {
   components : {
     navbar,
-    footer
+    Footer
   }
 }
 </script>
