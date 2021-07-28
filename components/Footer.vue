@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-        <div class="containercontainer">
+        <div class="container">
             <div class="row">
                 <div class="col-sm-3">
                     <div class="list-name"><img src="~/assets/GLOOK.png" alt=""></div>
@@ -47,8 +47,8 @@
                 </div>
             </div>    
         </div>
-        <div>
-          <div class="end">copyright &#169; 2021-glook</div>        
+        <div class="end">
+          <div class="container">copyright &#169; 2021-glook</div>        
         </div>
      </div>
 </template>
@@ -57,7 +57,7 @@
 .footer{
     
     background-color: black;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
 }
 footer-text{
     margin-top: 5rem;
@@ -75,7 +75,7 @@ hr{
     color: white;
 
 }
-/* .list-name{
+.list-name{
     font-size: 1.5rem;
     margin-top: 1.5rem;
     color: white;
@@ -96,7 +96,7 @@ li{
 
     letter-spacing: .2rem;
     font-size: 1.1;
-}  */
+} 
 @media only screen and (max-width: 600px) {
     .footer{
     margin-top: 5rem;

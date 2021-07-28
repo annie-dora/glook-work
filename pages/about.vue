@@ -3,8 +3,17 @@
          <navbar/>
          
         <div class="first">
-            
-            <h1>uytdfiuy</h1>
+            <div class="write container">
+                <div class="left">
+                    <h1>ABOUT US</h1>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="second">
             <div class="container">
@@ -82,9 +91,20 @@ export default {
 <style scoped>
 .first{
     margin-top: 100px;
-    background-image: url('/img/gallery/2.png');
-    background-repeat: no-repeat;
+    background: linear-gradient(360deg, rgba(163, 72, 113, 0.81),rgba(163, 72, 113, 0.81)),url('/img/backgrounds/background3.jpg') fixed, no-repeat;
     background-size: cover;
+    color: white;
+    
+}
+.write{
+    padding: 100px
+}
+.right{
+    float: right;
+}
+.right li{
+    display: inline;
+    padding: 5px;
 }
 .second{
     background-color: rgba(160, 156, 156, 0.178)!important

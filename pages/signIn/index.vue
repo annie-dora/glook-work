@@ -25,7 +25,10 @@
                         
                     </div>
                     <div class="mt-3">
-                        <button type="submit" class="btn btn-primary">SIGN UP</button>
+                        <button type="submit" class="btn btn-primary">
+                            <span v-if="notloading"> SIGN UP </span>
+                            <div v-else><loader/></div>
+                          </button>
                     </div>
                  
                  </form>
@@ -40,9 +43,10 @@ import firebase from 'firebase'
 import navbar from "@/components/navbar.vue"
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import loader from '~/components/loader'
 export default {
     components:{
-        firebase, navbar, ElementUI
+        firebase, navbar, ElementUI,loader
     },
     data(){
         return{
@@ -50,7 +54,8 @@ export default {
             
             email:'',
             password:''
-          } 
+          },
+          notloading:true,
             
         }
     },
@@ -62,6 +67,7 @@ export default {
     methods: {
         
         signup(){
+            this.notloading = false;
             firebase.auth().createUserWithEmailAndPassword(this.auth.email, this.auth.password)
                 .then((userCredential) => {
                     // Signed in
@@ -70,6 +76,7 @@ export default {
                         message: 'Signup successful!',
                         type: 'success'
                         });
+                        this.notloading = true;
                     console.log(user)
                     this.$router.push('/appointment');
                     // ...
@@ -79,6 +86,7 @@ export default {
                     var errorMessage = error.message;
                     console.log(errorCode)
                     alert(errorMessage)
+                    this.notloading;
                 });
         }
         

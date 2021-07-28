@@ -1,6 +1,11 @@
 <template>
     <div class="main">
         <navbar/>
+        <div class="first">
+            <div class="write">
+                <h1>Services</h1>
+            </div>
+        </div>
         <div class="second">
             <div class="second-group container">
                 <div class="grid1">
@@ -94,7 +99,15 @@ export default {
 
 
 <style scoped>
-
+.first{
+    margin-top: 100px;
+    background: linear-gradient(360deg, rgba(163, 72, 113, 0.81),rgba(163, 72, 113, 0.81)),url('/img/backgrounds/background3.jpg') fixed, no-repeat;
+    background-size: cover;
+    color: white;
+}
+.write{
+    padding: 100px
+}
 .grid1{
     display: grid;
     grid-template-columns: 1fr 1fr;

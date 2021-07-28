@@ -4,7 +4,7 @@
     <div class="margin">
        <nuxt />
     </div>
-   <Footer/>
+   
   </div>
 </template>
 

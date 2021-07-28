@@ -10,15 +10,15 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="~/assets/background-1.jpg" class="images d-block w-100" alt="..." width="100%">
+                <img src="~/assets/first.jpg" class="images d-block w-100" alt="..." width="100%">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Over 20 Years Experience</h5>
                     <p>Master hair stylist in precision hair cuts</p>
-                    <button class="more"><nuxt-link to="/about">MORE ABOUT GLOOK</nuxt-link> </button>
+                    <button class="more"> <nuxt-link to="/about">MORE ABOUT GLOOK</nuxt-link> </button>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="~/assets/background-3.jpg" class="d-block w-100" alt="..." width="100%">
+                <img src="~/assets/second.jpg" class="d-block w-100" alt="..." width="100%">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Soft & Healthy Hair</h5>
                     <p>Exquisite style that is functional, soft & fun</p>
@@ -26,7 +26,7 @@
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="~/assets/background-4.jpg" class="d-block w-100" alt="..." width="100%">
+                <img src="~/assets/third.jpg" class="d-block w-100" alt="..." width="100%">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Natural Hair Salon</h5>
                     <p>We make hair move</p>
@@ -151,8 +151,9 @@
                 </div>
             </div>
             <div class="fourth mt-5">
-                <div class="people mb-5">
+                <div class="people container mb-5">
                     <h2 class="what">What People Are Saying</h2>
+                    <i class="fa fa-scissors" aria-hidden="true"></i><br>
                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                     <p >This was my first time there and I loved Tammy. 
                     She really cares about your hair. She’s friendly and
@@ -172,7 +173,8 @@ import Footer from '~/components/Footer.vue';
 export default {
      components : {
     navbar,
-    Footer
+    Footer,
+    
   },
     data(){
         return{
@@ -180,6 +182,7 @@ export default {
             isDisabled : false,
             prevDisabled : true
         }
+        
     },
     methods : {
         nextBtn(){
@@ -322,7 +325,7 @@ export default {
     float:right;
 }
 .fourth{
-    background: linear-gradient(360deg, rgba(163, 72, 113, 0.81),rgba(163, 72, 113, 0.81)),url('/img/backgrounds/background1.jpg') fixed;
+    background: linear-gradient(360deg, rgba(163, 72, 113, 0.81),rgba(163, 72, 113, 0.81)),url('/img/backgrounds/background2.jpg') fixed;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -334,6 +337,7 @@ export default {
 }
 .people p{
     color: white;
+    font-size: 35px;
 }
 
 
