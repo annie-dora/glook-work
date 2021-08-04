@@ -17,6 +17,7 @@
                 <div class="col-sm-3">
                     <div class="list-name">ABOUT US</div>
                     <ul>
+                        <li><h3 class="widget-title">ABOUT US</h3></li>
                         <li>About</li>
                         <li>Services</li>
                         <li>Testimonials</li>
@@ -26,6 +27,7 @@
                 <div class="col-sm-3">
                     <div class="list-name">SERVICES</div>
                     <ul>
+                        <li><h3 class="widget-title">SERVICES</h3></li>
                         <li>Hair Cut</li>
                         <li>Chemical Treatment</li>
                         <li>Keratin Treatment</li>
@@ -35,11 +37,12 @@
                 <div class="col-sm-3">
                     <div class="list-name">Contact</div>
                     <ul>
+                        <li><h3 class="widget-title">CONTACT</h3></li>
                         <li>
-                            <div class="media_icon">
-                            <i class="fa fa-map">Uyo</i>
-                            <i class="fa fa-phone">(+234) 817 7746 867</i>
-                            <i class="fa fa-envelope">nyonganiebiet@gmail.com</i>
+                            <div class="media_icon icons2">
+                            <i class="fa fa-map-marker">  Uyo</i>
+                            <i class="fa fa-phone"> (+234) 817 7746 867</i>
+                            <i class="fa fa-envelope ">nyonganiebiet@gmail.com</i>
                             </div>
                             
                         </li>
@@ -47,16 +50,16 @@
                 </div>
             </div>    
         </div>
-        <div class="end">
+        <!-- <div class="end">
           <div class="container">copyright &#169; 2021-glook</div>        
-        </div>
+        </div> -->
      </div>
 </template>
 
 <style scoped>
 .footer{
     
-    background-color: black;
+    background-color: white !important;
     /* padding-bottom: 2rem; */
 }
 footer-text{
@@ -71,15 +74,19 @@ footer-text{
     margin-top: 5rem;
     float: right;
 }
-hr{
+/* hr{
     color: white;
 
-}
+} */
 .list-name{
     font-size: 1.5rem;
     margin-top: 1.5rem;
     color: white;
 }
+/* .col-sm-3{
+    border-right: 2px solid rgba(163, 72, 113, 0.81);
+
+} */
 ul{
     margin : 0;
     padding: 0;
@@ -88,19 +95,30 @@ ul{
 li{
     list-style-type: none;
     margin-top: 1rem;
-    color: #949090;
     font-size: 1.1rem;
     cursor: pointer;
+}
+widget-title{
+    margin-top: 13px;
+    font-size: 16px;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    line-height: 27px;
+    margin-bottom: 23px;
+    color: black;
 }
 .media_icon{
 
     letter-spacing: .2rem;
     font-size: 1.1;
 } 
+.icons2 i{
+   padding: 10px ;
+}
 @media only screen and (max-width: 600px) {
-    .footer{
+.footer{
     margin-top: 5rem;
-    background-color: black;
+    background-color: white;
 }
 .footer-text{
     margin-top: 5rem;

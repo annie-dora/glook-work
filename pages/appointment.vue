@@ -1,60 +1,62 @@
 <template>
-    <div>
+    <div class="begin">
         <navbar />
         <div class="container-fluid contact_us" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
             <div class="row">
                 <div class="container">
-                <div class="card contact_card">
+                <div class="card contact_card container">
                 <div class="card-body">
-                    <div class="try_us">Ready to try us?</div>
-                    <div class="try_us2"> Request for a free delivery</div>
+                    <div class="try_us">Welcome to our Online Booking!</div>
+                    <div class="try_us2"> We are glad you are here</div>
                     <p>We understand the challenges facing delivery and logistic, but we at Logistic express, we ensure safe and efficient 
                         delivery of every package. </p>
-                       <p>That why we offer a free trail of our service to every first customers.</p> 
+                       <p>We look forward to seeing you soon!</p> 
+                       <p>Appointments can be ancelled by phone only.</p>
                  <form method="post" @submit.prevent="deliver">
                     <div class="form-row">
                         <div class="col">
-                        <input type="text" class="form-control" required placeholder="Name" v-model="deliveryorder.name">
+                            <input type="text" class="form-control" required placeholder="Full Name" v-model="deliveryorder.name">
                         </div>
-                      
-                    </div>
-                    <div class="form-row">
                         <div class="col">
-                            <input type="text" class="form-control mt-3" required v-model="deliveryorder.pickup" placeholder="Pickup Address">
+                            <input type="email" class="form-control" required placeholder="Email" v-model="deliveryorder.name">
                         </div>
+                    </div>
+                    <!-- <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control mt-3 " required v-model="deliveryorder.pickup" placeholder="Phone Number">
+                        </div>
+                        
                         <div class="col">
                             <input type="text" class="form-control mt-3" required v-model="deliveryorder.dropoff" placeholder="Dropoff Address">
                         </div>
-                    </div>
-                    
-               
-                <div class="form-row mt-3">
-                        <div class="col">
-                            <div class="form-group">
-                                <select class="custom-select increase_height" name="" required v-model="deliveryorder.type">
-                                    <option value="" selected disabled>Freight Type</option>
-                                    <option value="Goods-Delivery">Goods Delivery</option>
-                                    <option value="Luggages-Transfer">Luggages Transfer</option>
-                                    <option value="Food/Groceries/Snacks">Food/Groceries/Snacks</option>
-                                </select>
+                    </div> -->
+                
+                    <div class="form-row mt-3">
+                            <div class="col">
+                                <div class="form-group">
+                                    <select class="custom-select increase_height" name="" required v-model="deliveryorder.type">
+                                        <option value="" selected disabled>Services</option>
+                                        <option value="bangTrim">Bang Trim</option>
+                                        <option value="Luggages-Transfer">Luggages Transfer</option>
+                                        <option value="Food/Groceries/Snacks">Food/Groceries/Snacks</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col">
+                            <input type="text" class="form-control" placeholder="Phone" required v-model="deliveryorder.weight">
                             </div>
                         </div>
-                        <div class="col">
-                        <input type="text" class="form-control" placeholder="Weight (kg)" required v-model="deliveryorder.weight">
-                        </div>
-                    </div>
-                    
                      <div class="form-row mt-3">
                         <div class="col">
-                        <input type="date" class="form-control" required v-model="deliveryorder.date" placeholder="Expected Date of Delivery">
+                        <input type="date" class="form-control" required v-model="deliveryorder.date" placeholder="Date of Appointment">
                         </div>
                         <div class="col">
-                        <input type="time" class="form-control" required v-model="deliveryorder.time" placeholder="Expected Time of Delivery">
+                        <input type="time" class="form-control" required v-model="deliveryorder.time" placeholder="Time of Appointment">
                        
                         </div>
                     </div>
                      <div class="btn_centerDelivery">
-                    <button class="btn btn-primary mt-3" type="submit">Request Delivery</button>
+                    <button class="btn btn-primary mt-3" type="submit">Book Appointment</button>
                     </div>
                 </form>
                 </div>
@@ -178,7 +180,7 @@ export default {
 }
 .input-group-text {
     color: white;
-    background-color: #f15f22;
+    background-color: #a34871;
     border: 1px solid #f15f22;
     cursor: pointer !important;
    
@@ -189,9 +191,15 @@ export default {
     font-style: italic;
     font-weight: 600;
 }
+.phone{
+    width: 64%;
+}
+/* .custom-select{
+    width:100%;
+} */
 .font_edit{
     font-size: 4rem;
-    color: #f15f22;
+    color: #a34871;
 }
 .wrapper_icon{
     background-color:  rgba(248, 248, 248, 0.767);
@@ -278,7 +286,7 @@ p{
     margin-top: 4rem;
 }
 .img_agent{
-    content: url("/img/hero/delivery-man.png");
+    /* background: url('/img/backgrounds/background1.jpg'); */
     height: 450px;
 }
 .btn-dark {
@@ -300,19 +308,19 @@ p{
 .btn{
   padding: .775rem 1.5rem !important;
 }
-.contact_us{
+.begin{
     margin-top : 10rem;
-    background-image: url("/img/hero/girl3.jpg");
+    background-image: url("/img/backgrounds/background1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 120vh;
+    /* height: 120vh; */
 }
 .contact_card{
     margin-top: 5rem;
     width: 70%;
 }
 .try_us{
-    color : #f15f22;
+    color : #a34871;
     font-size: 1.5rem;
     font-weight: 500;
     text-transform: capitalize;
@@ -329,13 +337,13 @@ p{
 }
 .btn-primary {
     color: white;
-    border-color: #f15f22 !important;
-    background-color:  #f15f22 !important;
+    border-color: #a34871 !important;
+    background-color:  #a34871 !important;
     text-transform: capitalize;
 }
 .btn-primary:hover {
-    background-color:  #ffc107 !important;
-    border-color: #ffc107 !important;
+    background-color:  #a34871 !important;
+    border-color: #a34871 !important;
 }
 .our_agent{
     margin-top: 7rem;

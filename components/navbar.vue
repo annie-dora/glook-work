@@ -32,7 +32,7 @@
             <li class="nav-item btn_nav">
               <div class="dropdown">
                     <button class="btn btn-dark dropdown dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      get started
+                      BOOK AN APPOINTMENT
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <nuxt-link to ="/login" class="dropdown-item" >Log In</nuxt-link>
@@ -83,7 +83,7 @@ li a:hover{
     transition:  2s;
 }
 ul{
-  margin-left: 19rem;
+  margin-left: 9rem;
 }
 /* .btn-dark:hover{
   background-color: #ffc107 !important;

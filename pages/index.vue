@@ -168,7 +168,7 @@
 
 <script>
 import navbar from '~/components/navbar.vue';
-import Footer from '~/components/Footer.vue';
+import Footer from '~/components/Footer.vue'
 // import carousel from 'v-owl-carousel'
 export default {
      components : {
