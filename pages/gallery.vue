@@ -6,56 +6,60 @@
                 <h1>Gallery</h1>
             </div>
         </div>
-        <div class="second ">
+        <div class="second container">
             <input type="radio" name="filter" id="all" checked><label for="all">All</label>
-  <input type="radio" name="filter" id="kid"><label for="kid">Kid</label>
-  <input type="radio" name="filter" id="bridal"><label for="bridal">Bridal</label>
-  <input type="radio" name="filter" id="weave"><label for="weave">Weave</label>
-  <input type="radio" name="filter" id="tech"><label for="tech">Tech</label>
+            <input type="radio" name="filter" id="kid"><label for="kid">Kid</label>
+            <input type="radio" name="filter" id="bridal"><label for="bridal">Bridal</label>
+            <input type="radio" name="filter" id="weave"><label for="weave">Weave</label>
+            <input type="radio" name="filter" id="braids"><label for="braids">Braids</label>
   <div class="gallery">
-    <figure class="card tech">
-      <img class="card__image" loading="lazy" src="https://picsum.photos/id/0/300" alt="">
-      <figcaption class="card__caption">Laptop</figcaption>
+    <figure class="card braids">
+      <img class="card__image" loading="lazy" src="/img/gallery/braid.jpg" alt="">
+      <!-- <figcaption class="card__caption">Laptop</figcaption> -->
     </figure>
     <figure class="card kid">
       <img class="card__image" loading="lazy" src="/img/gallery/kid4.jpg" alt="">
-      <figcaption class="card__caption">Sea forest</figcaption>
+      <!-- <figcaption class="card__caption">Sea forest</figcaption> -->
     </figure>
     <figure class="card bridal">
       <img class="card__image" loading="lazy" src="/img/gallery/bridal4.jpg" alt="">
-      <figcaption class="card__caption">Deer</figcaption>
+      <!-- <figcaption class="card__caption">Deer</figcaption> -->
     </figure>
     <figure class="card weave">
       <img class="card__image" loading="lazy" src="/img/gallery/weave2.jpg" alt="">
-      <figcaption class="card__caption">Horizon sight</figcaption>
+      <!-- <figcaption class="card__caption">Horizon sight</figcaption> -->
     </figure>
     <figure class="card bridal">
       <img class="card__image" loading="lazy" src="/img/gallery/bridal2.jpg" alt="">
-      <figcaption class="card__caption">Sea</figcaption>
+      <!-- <figcaption class="card__caption">Sea</figcaption> -->
     </figure>
     <figure class="card weave">
       <img class="card__image" loading="lazy" src="/img/gallery/weave1.jpg" alt="">
-      <figcaption class="card__caption">Man & Dog</figcaption>
+      <!-- <figcaption class="card__caption">Man & Dog</figcaption> -->
     </figure>
     <figure class="card kid">
       <img class="card__image" loading="lazy" src="/img/gallery/kid2.jpg" alt="">
-      <figcaption class="card__caption">Bear</figcaption>
+      <!-- <figcaption class="card__caption">Bear</figcaption> -->
     </figure>
     <figure class="card bridal">
       <img class="card__image" loading="lazy" src="/img/gallery/bridal3.jpg" alt="">
-      <figcaption class="card__caption">Girl</figcaption>
+      <!-- <figcaption class="card__caption">Girl</figcaption> -->
     </figure>
-    <figure class="card tech">
-      <img class="card__image" loading="lazy" src="https://picsum.photos/id/119/300" alt="">
-      <figcaption class="card__caption">MacBook</figcaption>
+    <figure class="card braids">
+      <img class="card__image" loading="lazy" src="/img/gallery/braid2.jpg" alt="">
+      <!-- <figcaption class="card__caption">MacBook</figcaption> -->
     </figure>
     <figure class="card weave">
       <img class="card__image" loading="lazy" src="/img/gallery/weave3.jpg" alt="">
-      <figcaption class="card__caption">Leopard</figcaption>
+      <!-- <figcaption class="card__caption">Leopard</figcaption> -->
+    </figure>
+    <figure class="card braids">
+      <img class="card__image" loading="lazy" src="/img/gallery/braid3.jpg" alt="">
+      <!-- <figcaption class="card__caption">Laptop</figcaption> -->
     </figure>
     <figure class="card kid">
       <img class="card__image" loading="lazy" src="/img/gallery/kid3.jpg" alt="">
-      <figcaption class="card__caption">Flower</figcaption>
+      <!-- <figcaption class="card__caption">Flower</figcaption> -->
     </figure>
     </div>
 <!-- <div class="donate">
@@ -89,22 +93,26 @@ export default {
 .write{
     padding: 100px
 }
+.second{
+  margin-top: 30px;
+}
 [type="radio"]{
   display: none;
 }
 label{
+  text-align: center;
   padding: 0.25rem 0.75rem;
   border-radius: 0.25rem;
   cursor: pointer;
   transition: 0.25s;
 }
 [type="radio"]:checked + label{
-	background: gold;
+	background: rgba(163, 72, 113, 0.81);
 }
 [type="radio"]:nth-of-type(2):checked ~ .gallery .card:not(.kid),
 [type="radio"]:nth-of-type(3):checked ~ .gallery .card:not(.bridal),
 [type="radio"]:nth-of-type(4):checked ~ .gallery .card:not(.weave),
-[type="radio"]:nth-of-type(5):checked ~ .gallery .card:not(.tech)
+[type="radio"]:nth-of-type(5):checked ~ .gallery .card:not(.braids)
 {
   display: none;
 }

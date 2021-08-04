@@ -7,20 +7,16 @@
                 <div class="left">
                     <h1>ABOUT US</h1>
                 </div>
-                <div class="right">
-                    <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                    </ul>
-                </div>
             </div>
         </div>
         <div class="second">
             <div class="container">
                 <div class="grid1">
                     <div class="sub-grid">
-                        <h3>Glook</h3>
-                        <i class="fa fa-scissors" aria-hidden="true"></i>
+                        <div class="grid-write">
+                            <h3>Glook</h3>
+                            <i class="fa fa-scissors" aria-hidden="true"></i>
+                        </div>
                         <p>Uyo’s premier black hairstylist/loctician making Uyo women beautiful for over 25 years.</p>
                         <p>Ms. Tammy, owner of Trendz by Tammy Black Hair Salon, master hairstylist/loctician
                              specializing in black hair, grew up in a group home for girls after her mother was 
@@ -38,13 +34,13 @@
                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                            <img src="~/assets/profile-1.jpg" class="d-block w-100" alt="...">
+                            <img src="/img/slide/slide1.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                            <img src="~/assets/profile-3.jpg" class="d-block w-100" alt="...">
+                            <img src="/img/slide/slide2.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                            <img src="~/assets/profile-4.jpg" class="d-block w-100" alt="...">
+                            <img src="/img/slide/slide3.jpg" class="d-block w-100" alt="...">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -63,15 +59,6 @@
         <div class="third">
             <button class="schedule"><nuxt-link to="/appointment">SCHEDULE APPOINTMENT</nuxt-link> </button>
         </div>
-        <div class="row">
-             <div class="col">
-                 jhbhmgi
-             </div>
-             <div class="col">
-                 yghjhv
-             </div>
-         </div>
-        
         <Footer/>
     </div>
 </template>
@@ -99,15 +86,12 @@ export default {
 .write{
     padding: 100px
 }
-.right{
-    float: right;
-}
 .right li{
     display: inline;
     padding: 5px;
 }
 .second{
-    background-color: rgba(160, 156, 156, 0.178)!important
+    background-color: rgba(126, 67, 67, 0.178)!important
 }
 .grid1{
     padding-top:100px;
@@ -119,7 +103,16 @@ export default {
     text-align: center;
     margin: 20px 20px;
 }
-
+.grid-write{
+    text-align: center;
+}
+.grid-write h3{
+    color: #a34871;
+}
+.grid-write i{
+    color: #a34871;
+    padding: 10px;
+}
 a{
     text-decoration: none;
     color: white;

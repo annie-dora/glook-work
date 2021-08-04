@@ -11,7 +11,7 @@
                 <div class="grid1">
                     <div class="sub-grid">
                        <div class="visit">
-                            <h3>Our Services</h3>
+                            <h3>Our <span class="service">Services</span> </h3>
                            <p>Come visit the best black hair salon in Uyo.
                              It is no longer enough for the black woman to just to 
                              have a fabulous hairstyle. Many of these very styles, 
@@ -23,42 +23,57 @@
                        </div>
                       <div class="inner-grid">
                            <div class="head1">
-                           <h3>Style Title</h3>
-                           <ul>
-                               <li>Net hair weaves specialist Up do’s</li>
-                               <li>Precision short hair cuts</li>
-                               <li>Fade</li>
-                               <li>Dreadlocks starter and retwist</li>
-                               <li>Cornrow hair braiding</li>
-                               <li>Silk Press/Blowout</li>
-                               <li>Natural Hair Care</li>
-                               <li>Virgin Hair Relaxers </li>
-                               <li>Corrective Hair Relaxers</li>
-                               <li>Permanent Hair Coloring</li>
-                           </ul>
-                       </div>
-                       <div class="head2">
-                            <h3>Style Title</h3>
-                            <ul>
-                                <li>Hair Relaxers, Virgin Relaxer, Relaxer Retouch</li>
-                                <li>Perms</li>
-                                <li>Jheri curls</li>
-                                <li>Two Strand Twist</li>
-                                <li>Straw Sets</li>
-                                <li>Pencil Curls</li>
-                                <li>Roller Wraps</li>
-                                <li>Roller Sets</li>
-                                <li>Keratin Protein Straightening Treatment</li>
-                                <li>Silk Press</li>
-                                <li>Natural Hair Blowout</li>
-                                <li>Natural Hair Care Styles</li>
-                                <li>Dreadlocks</li>
-                                <li>Protected Quick Weaves</li>
-                                <li>Protected Flawless Sew in Weaves</li>
-                                <li>Beautiful Flat 27 piece Quick Weaves</li>
-                                <li>Feed in Ghana, Goddess and Cornrow Hair Braiding Salon</li>
-                            </ul>
-                       </div>
+                                <div class="inner-head">
+                                    <h3>Style Title</h3>
+                                    <ul>
+                                        <li>Net hair weaves specialist Up do’s</li>
+                                        <li>Precision short hair cuts</li>
+                                        <li>Fade</li>
+                                        <li>Dreadlocks starter and retwist</li>
+                                        <li>Cornrow hair braiding</li>
+                                        <li>Silk Press/Blowout</li>
+                                        <li>Natural Hair Care</li>
+                                        <li>Virgin Hair Relaxers </li>
+                                        <li>Corrective Hair Relaxers</li>
+                                        <li>Permanent Hair Coloring</li>
+                                    </ul>
+
+
+                                    <h3>Hair cuts</h3>
+                                    <ul>
+                                        <li>Short hair cut</li>
+                                        <li>Medium hair cut</li>
+                                        <li>Long hair cut</li>
+                                        <li>Precision hair cut</li>
+                                        <li>Trim of split ends</li>
+                                        <li>Edge ups</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="head2">
+                                <div class="inner-head">
+                                    <h3>Style Title</h3>
+                                    <ul>
+                                        <li>Hair Relaxers, Virgin Relaxer, Relaxer Retouch</li>
+                                        <li>Perms</li>
+                                        <li>Jheri curls</li>
+                                        <li>Two Strand Twist</li>
+                                        <li>Straw Sets</li>
+                                        <li>Pencil Curls</li>
+                                        <li>Roller Wraps</li>
+                                        <li>Roller Sets</li>
+                                        <li>Keratin Protein Straightening Treatment</li>
+                                        <li>Silk Press</li>
+                                        <li>Natural Hair Blowout</li>
+                                        <li>Natural Hair Care Styles</li>
+                                        <li>Dreadlocks</li>
+                                        <li>Protected Quick Weaves</li>
+                                        <li>Protected Flawless Sew in Weaves</li>
+                                        <li>Beautiful Flat 27 piece Quick Weaves</li>
+                                        <li>Feed in Ghana, Goddess and Cornrow Hair Braiding Salon</li>
+                                    </ul>
+                                </div>
+                            </div>
                       </div>
                     </div>
                     <div class="sub-grid2">
@@ -110,8 +125,35 @@ export default {
 }
 .grid1{
     display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap:40px;
+}
+.visit{
+    text-align: center;
+}
+.inner-grid{
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap:0px;
+    padding: 50px 0;
+    grid-gap: 15px;
+}
+.inner-head{
+    background-color: #a34871;
+    padding: 20px;
+}
+.inner-head h3{ 
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.inner-head li{
+    color: white;
+    /* text-align: center; */
+}
+.second{
+    padding: 100px 0;
+    background-color: rgba(126, 67, 67, 0.178)!important
+
 }
 .gallery{
     background-image: url('/img/gallery/2.png');
