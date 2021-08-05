@@ -83,8 +83,12 @@
                             <p>Specializing in damaged hair repair and providing superior custom hair care services</p>
                         </div>
                         <div class="newsletter">
-                            <h3>Newsletter</h3>
-                            <nuxt-link to="/signIn">Sign up</nuxt-link>
+                            <div class="letter">
+                                <div class="inner-letter">
+                                    <h3>Newsletter</h3>
+                                    <nuxt-link to="/signIn">Sign up</nuxt-link>
+                                </div>
+                            </div>
                         </div>
                         <div class="gallery">
                             hhhhhhhhh
@@ -158,5 +162,23 @@ export default {
 .gallery{
     background-image: url('/img/gallery/2.png');
 }
-
+.newsletter{
+     border: 10px solid #a34871;
+    /* text-align: center; */
+    padding: 8px;
+}
+.letter{
+    background-color: white;
+}
+.inner-letter{
+    text-align: center;
+    margin: 10px;
+    padding: 10px 20px;
+}
+.inner-letter a{
+    text-decoration: none;
+    color: #a34871;
+    font-size: 20px;
+    font-weight: bolder;
+}
 </style>

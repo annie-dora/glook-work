@@ -52,10 +52,9 @@
                     <div class="icon">
                         <i class="fa fa-scissors scissors" aria-hidden="true"></i>
                     </div>
-                    <p class="icon-text">Premier Natural Black Hair Salon Houston. Skilled and up to date with the latest hair TRENDZ, 
-                        ladies short pixie hair cuts, relaxers, dreadlocks and color trends. 
-                        Our team of hair professionals is ready to help make you feel and look great. 
-                        For hiring information visit http://trendzbytammy.com/hiring-booth-rental-hairstylists/</p>
+                    <p class="icon-text">Your GLOOk Salon experience begins from the moment you walk in our door. From our complimentary coffee basr to our 
+                     to our team of highly experienced stylist and technicians, we have everything you need to feel relaxed
+                     and refreshed. Our GLOOk team takes personal pride in making sure you're completely satisfied with our service.</p>
                 </div>
                 <div class="sub-grid">
                     <img src="~/assets/owner.jpg" alt="" class="img-responsive" width="100%" height="100%">
@@ -153,7 +152,6 @@
             <div class="fourth mt-5">
                 <div class="people container mb-5">
                     <h2 class="what">What People Are Saying</h2>
-                    <i class="fa fa-scissors" aria-hidden="true"></i><br>
                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                     <p >This was my first time there and I loved Tammy. 
                     She really cares about your hair. She’s friendly and
@@ -259,6 +257,7 @@ export default {
 }
 .icon-text{
     text-align: center;
+    color: black;
 }
 .icon-purple{
     padding: 15px 0;
@@ -326,7 +325,7 @@ export default {
 }
 .fourth{
     background: linear-gradient(360deg, rgba(163, 72, 113, 0.81),rgba(163, 72, 113, 0.81)),url('/img/backgrounds/background2.jpg') fixed;
-    background-size: cover;
+    background-size: contain;
     width: 100%;
     height: 100%;
 }

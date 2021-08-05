@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="list-name"><img src="~/assets/GLOOK.png" alt=""></div>
+                    <div class="list-name"><img src="~/assets/thisi2.png" alt=""></div>
                     <ul>
                             <li>
                             <div class="media_icon">

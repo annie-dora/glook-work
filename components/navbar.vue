@@ -2,7 +2,7 @@
     <div class="container-fluid container_bg col fixed-top">
        <div class="container nav_padding">
       <nav class="navbar navbar-expand-lg navbar-light mt-2">
-        <nuxt-link to ="/" class="navbar-brand"><img src="~/assets/icon-envelope-small@2x.png" alt="" srcset=""></nuxt-link>
+        <nuxt-link to ="/" class="navbar-brand"><img src="~/assets/thisi2.png" alt="" srcset="" class="img-responsive"></nuxt-link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>

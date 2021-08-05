@@ -3,6 +3,7 @@
         <Navbar />
         <div class="container margin_top">
             <div class="card shadow"  data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+                 <img class='background-img' src='~/assets/first.jpg'/>
             <div class="card-body">
                 <form @submit.prevent="signup">
                     <h5 class="modal-title" id="exampleModalLabel">SIGN UP</h5>

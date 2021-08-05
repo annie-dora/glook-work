@@ -14,33 +14,28 @@
                 <div class="grid1">
                     <div class="sub-grid">
                         <div class="grid-write">
-                            <h3>Glook</h3>
+                            <h3> ABOUT GLOOK</h3>
                             <i class="fa fa-scissors" aria-hidden="true"></i>
                         </div>
-                        <p>Uyo’s premier black hairstylist/loctician making Uyo women beautiful for over 25 years.</p>
-                        <p>Ms. Tammy, owner of Trendz by Tammy Black Hair Salon, master hairstylist/loctician
-                             specializing in black hair, grew up in a group home for girls after her mother was 
-                             murdered across the street from her childhood home. In high school, 
-                             she won a $10,000 Coca-Cola Martin Luther King Jr scholarship. She made her case 
-                             to Vocational Rehabilitation Association that she was a handicap of the state due to 
-                             the fact that she didn’t have parents and wanted to go to college. That bit of genius 
-                             landed Ms. Tammy another $1,500 a semester for college. This allowed her to attend the college of 
-                             her choice. Without the scholarships, she would have had to attend a state college. Ms. Tammy graduated from Xavier 
-                            University of Louisiana with a Bachelor in Accounting.</p>
-                            <p>Tammy is also a phenomenal motivational speaker and spoken word poet who performs all over the city. View aka Poet Authentic 
-                                Deception at http://youtube.com/user/AuthenticDeception</p>
+                        <p>GLOOK is dedicated to telling each client's individual story on healthy hair. We recognize the trust that our clients place in our hands and we work to create relationships that are 
+                            personalized respectful and of course fun.
+                        </p>
+                            <p>We are a salon that listens first and color, cuts, and styles later. We offer our signature consultations because we want to get 
+                                to konw you, your lifestyle and the things that make you - well you. We're bere to guide you to the hair you truly desire and while that 
+                                takes time, we promise it will be worth it.
+                            </p>
                     </div>
                     <div class="sub-grid">
                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                            <img src="/img/slide/slide1.jpg" class="d-block w-100" alt="...">
+                            <img src="/img/slide/slide7.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
                             <img src="/img/slide/slide2.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                            <img src="/img/slide/slide3.jpg" class="d-block w-100" alt="...">
+                            <img src="/img/slide/slide4.jpg" class="d-block w-100" alt="...">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

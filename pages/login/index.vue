@@ -25,7 +25,7 @@
                     </form>
         
                 <div class='sign-up'>
-                    Or Sing Up Using<br>
+                  <p>OR</p>
                     <nuxt-link to="/signIn"> SIGN UP</nuxt-link>
                 </div>
             </div>

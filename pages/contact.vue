@@ -7,21 +7,42 @@
             </div>
         </div>
         <div class="second">
-            <div class="contact-container">
+            <div class="contact-container ">
                 <div class="left-col">
-                    <!-- <img class="logo" src="https://www.indonesia.travel/content/dam/indtravelrevamp/en/logo.png"/> -->
+                  <div class="sub-grid">
+                    <h3>Get in touch</h3>
+                        <i class="fa fa-scissors" aria-hidden="true"></i>
+                    <div class="other1 other">
+                            <ul class="icons">
+                                <li><i class="fa fa-map-marker " aria-hidden="true"> </i>  <span class="details">  9 idak-edat,Uyo</span></li> 
+                                <li><i class="fa fa-phone " aria-hidden="true">   </i> <span  class="details">(+234) 817 7746 867</span></li> 
+                                <li><i class="fa fa-envelope-open " aria-hidden="true">  </i> <span  class="details">nyonganiebiet@gmail.com</span></li> 
+                            </ul>
+                    </div>
+                    <div class="others other">
+                        <i class="fa fa-clock-o" aria-hidden="true"> </i>
+                        <div class="others-sub">
+                          <p>9:00 AM – 6:00 PM</p>
+                           <p>Monday – Saturday</p>
+                        </div>
+                       <div class="others-sub">
+                          <p>11:00 Noon – 4:00 PM</p>
+                          <p>Sunday</p>
+                       </div>
+                    </div>
+                    <div class="others-sub other others-icon">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
                 </div>
                 <div class="right-col">
-                    <!-- <div class="theme-switch-wrapper">
-                    <label class="theme-switch" for="checkbox">
-                        <input type="checkbox" id="checkbox" />
-                        <div class="slider round"></div>
-                    </label>
-                    </div>
-                         -->
+                    
                     <h1>Contact us</h1>
-                    <p>Planning to visit Indonesia soon? Get insider tips on where to go,
-                         things to do and find best deals for your next adventure.</p>
+                    <p>Planning to visit Indonesia soon? Get insider tips on where
+                       to things to do and find best deals for your next adventure.</p>
                         
                     <form  method="post" @submit.prevent="send">
                         <label for="name">Full name</label>
@@ -94,7 +115,7 @@
                
             </div>-->
         </div> 
-        <Footers/>
+        <Footer/>
     
     
     
@@ -166,7 +187,7 @@ export default {
 }
 .contact-container {
   display: flex;
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   background: var(--bg-color);
 }
@@ -204,7 +225,26 @@ h1 {
   letter-spacing: 0.5rem;
   font-weight: 300;
 }
-
+.sub-grid{
+  text-align: center;
+  color: white;
+  padding: 100px 0;
+}
+.sub-grid li{
+  list-style-type: none;
+}
+.other{
+  padding: 20px 0;
+}
+.others-sub{
+  padding: 10px 0;
+}
+.others-icon i{
+  padding: 0 10px;
+}
+.details{
+  padding: 0 10px;
+}
 p {
   color: var(--secondary-color);
   font-size: 0.9rem;
