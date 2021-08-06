@@ -1,24 +1,23 @@
 <template>
     <div class="begin">
         <navbar />
-        <div class="container-fluid contact_us" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+        <div class="container-fluid contact_us">
             <div class="row">
                 <div class="container">
                 <div class="card contact_card container">
                 <div class="card-body">
-                    <div class="try_us">Welcome to our Online Booking!</div>
+                    <div class="try_us">Welcome to online booking!</div>
                     <div class="try_us2"> We are glad you are here</div>
-                    <p>We understand the challenges facing delivery and logistic, but we at Logistic express, we ensure safe and efficient 
-                        delivery of every package. </p>
+                    <p>Please use this form if you'd like to book an appointment at GLOOK. </p>
                        <p>We look forward to seeing you soon!</p> 
-                       <p>Appointments can be ancelled by phone only.</p>
+                       <p>Appointments can be cancelled by phone only.</p>
                  <form method="post" @submit.prevent="deliver">
                     <div class="form-row">
                         <div class="col">
-                            <input type="text" class="form-control" required placeholder="Full Name" v-model="deliveryorder.name">
+                            <input type="text" class="form-control" required placeholder="Full Name" v-model="auth.name">
                         </div>
                         <div class="col">
-                            <input type="email" class="form-control" required placeholder="Email" v-model="deliveryorder.name">
+                            <input type="email" class="form-control" required placeholder="Email" v-model="auth.email">
                         </div>
                     </div>
                     <!-- <div class="form-row">
@@ -34,24 +33,27 @@
                     <div class="form-row mt-3">
                             <div class="col">
                                 <div class="form-group">
-                                    <select class="custom-select increase_height" name="" required v-model="deliveryorder.type">
-                                        <option value="" selected disabled>Services</option>
+                                    <select class="custom-select increase_height" name="" required v-model="auth.type">
+                                        <option value="" selected >Services</option>
                                         <option value="bangTrim">Bang Trim</option>
                                         <option value="Luggages-Transfer">Luggages Transfer</option>
                                         <option value="Food/Groceries/Snacks">Food/Groceries/Snacks</option>
                                     </select>
                                 </div>
                             </div>
+                            <!-- <div class="col">
+                                <input type="tel" name="" id="" v-model="auth.phone" placeholder="Phone">
+                            </div> -->
                             <div class="col">
-                            <input type="text" class="form-control" placeholder="Phone" required v-model="deliveryorder.weight">
+                            <input type="tel" class="form-control" placeholder="Phone" required v-model="auth.phone">
                             </div>
                         </div>
                      <div class="form-row mt-3">
                         <div class="col">
-                        <input type="date" class="form-control" required v-model="deliveryorder.date" placeholder="Date of Appointment">
+                        <input type="date" class="form-control" required v-model="auth.date" placeholder="Date of Appointment">
                         </div>
                         <div class="col">
-                        <input type="time" class="form-control" required v-model="deliveryorder.time" placeholder="Time of Appointment">
+                        <input type="time" class="form-control" required v-model="auth.time" placeholder="Time of Appointment">
                        
                         </div>
                     </div>
@@ -70,13 +72,13 @@
 </template>
 
 <script>
-import 'element-ui/lib/theme-chalk/index.css';
+// import 'element-ui/lib/theme-chalk/index.css';
 import navbar from '~/components/navbar.vue';
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
+// import ElementUI from 'element-ui';
+// import 'element-ui/lib/theme-chalk/index.css';
 export default {
     components : {
-     ElementUI,
+    //  ElementUI,
      navbar
   },
     data(){
@@ -84,8 +86,10 @@ export default {
             counter : 0,
             isDisabled : false,
             prevDisabled : true,
-            deliveryorder:{
+            auth:{
                 name:'',
+                email:' ',
+                phone:' ',
                 pickup:'',
                 dropoff:'',
                 type:'',
@@ -119,7 +123,7 @@ export default {
         },
         async deliver() {
       try {
-        this.$axios.post('https://glook-7063a-default-rtdb.firebaseio.com/glook.json',this.deliveryorder,{
+        this.$axios.post('https://glook-7063a-default-rtdb.firebaseio.com/glook.json',this.auth,{
           headers:{
             'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Headers': '*',
@@ -150,7 +154,7 @@ export default {
 <style scoped>
 .font_edit1{
     font-size: 2rem;
-    color: #f15f22;
+    color: #a34871;
     border-radius: 12px;
 }
 .back{
@@ -181,7 +185,7 @@ export default {
 .input-group-text {
     color: white;
     background-color: #a34871;
-    border: 1px solid #f15f22;
+    border: 1px solid #a34871;
     cursor: pointer !important;
    
 }
@@ -225,7 +229,7 @@ export default {
     color:  hsl(229, 31%, 21%);
 }
 .our_service{
-    color : #f15f22;
+    color : #a34871;
     font-size: 1.5rem;
     text-align: center;
     font-weight: 500;
@@ -260,7 +264,7 @@ p{
     color: white !important;
 } */
 .about{
-    color : #f15f22;
+    color : #a34871;
     font-size: 1.5rem;
     font-weight: 500;
     text-transform: capitalize;
@@ -291,8 +295,8 @@ p{
 }
 .btn-dark {
     color: white;
-    border-color: #f15f22 !important;
-    background-color:  #f15f22 !important;
+    border-color: #a34871 !important;
+    background-color:  #a34871 !important;
     -webkit-transition: 2s; 
     transition:  2s;
     text-transform: capitalize;
@@ -301,8 +305,8 @@ p{
     text-align: center !important;
 }
 .btn-dark:hover{
-  background-color: #ffc107 !important;
-  border-color:  #ffc107 !important;
+  background-color: #a34871 !important;
+  border-color:  #a34871 !important;
   transition-timing-function: ease-in;
 }
 .btn{

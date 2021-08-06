@@ -2,10 +2,10 @@
     <div class=" ">
         <navbar />
         <div class="login-pg">
-            <img class='background-img' src='~/assets/first.jpg'/>
+          <div>            <img class='background-img' src='~/assets/first.jpg'/></div>
             <div class='card-wrapper'>
                     <h1 class='call-to-action'>Login</h1>
-                    <form @submit.prevent="login">         
+                    <form method="post" @submit.prevent="login">         
                         <div class='field'>
                         <label for='username'>Username</label><br>
                         <i class='bx bx-user'></i>

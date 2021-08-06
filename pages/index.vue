@@ -685,6 +685,10 @@ li{
     height: 400px !important;
     margin-top: 12vh;
 }
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 .input-group {
     margin-top: 2.5rem !important;
     width: 100% !important;
@@ -1143,7 +1147,7 @@ p{
 }
 .contact_us{
     margin-top : 10rem;
-    background-image: url("/img/hero/girl3.jpg");
+    /* background-image: url("/img/hero/girl3.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
