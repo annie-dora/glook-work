@@ -181,4 +181,16 @@ export default {
     font-size: 20px;
     font-weight: bolder;
 }
+
+@media only screen and (max-width: 600px) {
+
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.inner-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+}
 </style>

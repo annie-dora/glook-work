@@ -123,6 +123,15 @@ a{
     border: none;
 
 }
+
+
+@media only screen and (max-width: 600px) {
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+}
 </style>
 
 
