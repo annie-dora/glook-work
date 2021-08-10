@@ -150,14 +150,148 @@
                 </div>
             </div>
             <div class="fourth mt-5">
-                <div class="people container mb-5">
+                   <section id="team">
+        <div class="container my-3 py-5 text-center">
+            <div class="row mb-5">
+                <div class="col">
+                    <h1>Our Team</h1>
+                    <p class="my-3">
+                        This team page has a quirky, vibrant energy that immediately catches your attention – a good
+                        sign for a design company.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 pt-1">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img class="img-fouild rounded w-75 mb-3"
+                                src="https://images.unsplash.com/photo-1554151228-14d9def656e4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80"
+                                alt="Sophie">
+                            <h3>Sophie Johnson</h3>
+                            <h5>Software Engineer</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, recusandae.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fa fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 pt-1">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img class="img-fouild rounded w-75 mb-3"
+                                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+                                alt="lucy">
+                            <h3>Lucy Sanchez</h3>
+                            <h5>FrontEnd Developer</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, recusandae.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fa fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 pt-1">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img class="img-fouild rounded w-75 mb-3"
+                                src="https://images.unsplash.com/photo-1592023031338-ee30ef94abbc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8aHVtYW4lMjBtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                alt="Brad">
+                            <h3>Brad Smith</h3>
+                            <h5>Scrum Master</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, recusandae.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fa fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 pt-1">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img class="img-fouild rounded w-75 mb-3"
+                                src="https://images.unsplash.com/photo-1552058544-f2b08422138a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTd8fGh1bWFufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                alt="andres">
+                            <h3>Tom Rogers</h3>
+                            <h5>Software Engineer</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, recusandae.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fa fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                <!-- <div class="people container mb-5">
                     <h2 class="what">What People Are Saying</h2>
                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                     <p class="say">This was my first time there and I loved Tammy. 
                     She really cares about your hair. She’s friendly and
                     personable. My hair is natural and I was skeptical above getting it straightened but I was very satisfied.
                     My hair was bouncy and glowing!!!</p>
-                </div>
+                </div> -->
             </div>
         </div>
         <Footer/>
@@ -315,7 +449,7 @@ export default {
     text-align: center;
 }
 .inner-grid ul{
-    padding: 0 20px;
+    padding: 0 30px;
 }
 .name{
     line-height: 40px;
@@ -339,6 +473,49 @@ export default {
     font-size: 35px;
 }
 
+        h1 {
+            font-size: 36px;
+            color: #555;
+            font-weight: bold;
+        }
+
+        h3 {
+            font-size: 24px;
+            color: #333;
+            font-weight: bold;
+        }
+
+
+
+        #team i {
+            font-size: 26px;
+            color: #555;
+        }
+
+        #team p {
+            font-weight: 500;
+        }
+
+        #team .card {
+            border-radius: 0;
+            box-shadow: 5px 5px 15px #e74c3c;
+            transition: all 0.3s ease-in;
+            -webkit-transition: all 0.3s ease-in;
+            -moz-transition: all 0.3s ease-in;
+        }
+
+        #team .card:hover {
+            background: #a34871;
+            color: #fff;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 5px 5px 10px #cf3cb7;
+        }
+
+        #team .card:hover h3,
+        #team .card:hover i {
+            color: #fff;
+        }
 
 
 @media only screen and (max-width: 600px) {

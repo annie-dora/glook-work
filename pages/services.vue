@@ -91,7 +91,7 @@
                             </div>
                         </div>
                         <div class="gallery">
-                            hhhhhhhhh
+                            
                             <br>
 
                             <img src="" alt="">

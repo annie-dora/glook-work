@@ -119,6 +119,7 @@ widget-title{
 .footer{
     margin-top: 5rem;
     background-color: white;
+    text-align: center;
 }
 .footer-text{
     margin-top: 5rem;

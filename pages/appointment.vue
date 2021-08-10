@@ -90,10 +90,7 @@ export default {
                 name:'',
                 email:' ',
                 phone:' ',
-                pickup:'',
-                dropoff:'',
                 type:'',
-                weight:'',
                 date:'',
                 time:''
             },
@@ -424,7 +421,7 @@ input[type="time"]:before {
 }
 .btn-outline-dark {
     color: white !important;
-    border-color: #f15f22 !important;
+    border-color: #a34871 !important;
 }
 .btn_margin{
     margin-top:1rem;
@@ -433,7 +430,7 @@ input[type="time"]:before {
     left: 40vh;
 }
 .email_notification{
-    color: #f15f22;
+    color: #a34871;
     margin-top: 2rem;
     text-align: center;
     text-transform: capitalize;
@@ -515,7 +512,7 @@ li{
 }
 .font_edit{
     font-size: 2.5rem;
-    color: #f15f22;
+    color: #a34871;
 }
 .icon_head{
     margin-top: 0rem;
@@ -534,7 +531,7 @@ li{
     text-align: center !important;
 }
 .our_service{
-    color : #f15f22;
+    color : #a34871;
     font-size: 1.3rem;
     text-align: center;
     font-weight: 500;
@@ -562,7 +559,7 @@ p{
 }
 .about{
     text-align: center;
-    color : #f15f22;
+    color : #a34871;
     font-size: 1.5rem;
     font-weight: 500;
     text-transform: capitalize;
@@ -598,15 +595,15 @@ p{
 }
 .btn-dark {
     color: white;
-    border-color: #f15f22 !important;
-    background-color:  #f15f22 !important;
+    border-color: #a34871 !important;
+    background-color: #a34871 !important;
     -webkit-transition: 2s; 
     transition:  2s;
     text-transform: capitalize;
 }
 .btn-dark:hover{
-  background-color: #ffc107 !important;
-  border-color:  #ffc107 !important;
+  background-color: #a34871!important;
+  border-color:  #a34871 !important;
   transition-timing-function: ease-in;
 }
 .btn{
@@ -630,7 +627,7 @@ p{
     display: block !important;
 }
 .try_us{
-    color : #f15f22;
+    color : #a34871;
     font-size: 1.5rem;
     font-weight: 500;
     text-transform: capitalize;
@@ -647,8 +644,8 @@ p{
 }
 .btn-primary {
     color: white;
-    border-color: #f15f22 !important;
-    background-color:  #f15f22 !important;
+    border-color: #a34871 !important;
+    background-color:  #a34871 !important;
     text-transform: capitalize;
 }
 .form-row .col{
@@ -673,7 +670,7 @@ p{
     margin-top: -3em;
 }
 .our_client{
-    color : #f15f22;
+    color : #a34871;
     font-size: 1.5rem;
     font-weight: 500;
     text-transform: capitalize;
@@ -701,7 +698,7 @@ p{
 }
 .btn-outline-dark {
     color: white !important;
-    border-color: #f15f22 !important;
+    border-color: #a34871 !important;
 }
 .btn_margin{
     margin-top:1rem;
@@ -710,7 +707,7 @@ p{
     left: 0;
 }
 .email_notification{
-    color: #f15f22;
+    color:#a34871;
     margin-top: 3rem;
     text-align: none !important;
     text-transform: capitalize;
@@ -752,7 +749,7 @@ p{
 }
 .font_edit{
     font-size: 2rem;
-    color: #f15f22;
+    color: #a34871;
 }
 .icon_head{
     margin-top: 0rem;
@@ -788,7 +785,7 @@ p{
 }
 .about{
     text-align: center;
-    color : #f15f22;
+    color : #a34871;
     font-size: 1.5rem;
     font-weight: 500;
     text-transform: capitalize;
@@ -820,15 +817,15 @@ p{
 }
 .btn-dark {
     color: white;
-    border-color: #f15f22 !important;
-    background-color:  #f15f22 !important;
+    border-color:#a34871 !important;
+    background-color: #a34871 !important;
     -webkit-transition: 2s; 
     transition:  2s;
     text-transform: capitalize;
 }
 .btn-dark:hover{
-  background-color: #ffc107 !important;
-  border-color:  #ffc107 !important;
+  background-color: #a34871 !important;
+  border-color: #a34871 !important;
   transition-timing-function: ease-in;
 }
 .btn{
@@ -866,8 +863,8 @@ p{
 }
 .btn-primary {
     color: white;
-    border-color: #f15f22 !important;
-    background-color:  #f15f22 !important;
+    border-color: #a34871 !important;
+    background-color:  #a34871 !important;
     text-transform: capitalize;
 }
 .form-row .col{
@@ -892,7 +889,7 @@ p{
     margin-top: -1em;
 }
 .our_client{
-    color : #f15f22;
+    color : #a34871;
     font-size: 1.5rem;
     font-weight: 500;
     text-transform: capitalize;
@@ -920,7 +917,7 @@ p{
 }
 .btn-outline-dark {
     color: white !important;
-    border-color: #f15f22 !important;
+    border-color: #a34871 !important;
 }
 .btn_margin{
     margin-top:.5rem;

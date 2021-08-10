@@ -12,33 +12,34 @@
             <div class="container">
                 <div class="intro">
                     <h2 class="text-center">Testimonials </h2>
-                    <p class="text-center">Our customers love us! Read what they have to say below. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+                    <p class="text-center">We love it when you leave us happy!
+Here's what a few of our lovely clients have to say about their experience.</p>
                 </div>
                 <div class="row people">
                     <div class="col-md-6 col-lg-4 item">
                         <div class="box">
-                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
+                            <p class="description">My experience at GLOOK is always welcoming. The products used are at a high level of expectation and am always looking forward to my next appointment.</p>
                         </div>
-                        <div class="author"><img class="rounded-circle" src="https://i.imgur.com/nUNhspp.jpg">
-                            <h5 class="name">Ben Johnson</h5>
+                        <div class="author">
+                            <h5 class="name">Amaka Ibiam</h5>
                             <p class="title">CEO of Company Inc.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
                         <div class="box">
-                            <p class="description">Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id.</p>
+                            <p class="description">I am so glad I found Emilee at GLOOK. She does an outstanding job on my hair. Each time is such a treat with the wonderful head massage. I always feel so pampered!</p>
                         </div>
-                        <div class="author"><img class="rounded-circle" src="https://i.imgur.com/o5uMfKo.jpg">
-                            <h5 class="name">Carl Kent</h5>
+                        <div class="author">
+                            <h5 class="name">Ekemini Anthony</h5>
                             <p class="title">Founder of Style Co.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
                         <div class="box">
-                            <p class="description">Aliquam varius finibus est, et interdum justo suscipit. Vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
+                            <p class="description">I love my local beauty parlour! It's always a pleasure to go there, wonderful treatments, beautiful treatment rooms and the ladies in there are just fab! I'll be back in soon  </p>
                         </div>
-                        <div class="author"><img class="rounded-circle" src="https://i.imgur.com/At1IG6H.png">
-                            <h5 class="name">Emily Clark</h5>
+                        <div class="author">
+                            <h5 class="name">Favour Uju</h5>
                             <p class="title">Owner of Creative Ltd.</p>
                         </div>
                     </div>
@@ -46,28 +47,28 @@
                 <div class="row people">
                     <div class="col-md-6 col-lg-4 item">
                         <div class="box">
-                            <p class="description">needed someone to do the full treatment with a trim. We were very delighted with our stylist and are going back this Saturday for braids. Thanks Tammy for your kindness on the phone and getting us in rather quickly although you were going out of town.”</p>
+                            <p class="description">During the last ten years I have had the occasional treatment from someone else, for example when I have been on holiday, but I have never found where as good as GLOOK</p>
                         </div>
-                        <div class="author"><img class="rounded-circle" src="https://i.imgur.com/nUNhspp.jpg">
-                            <h5 class="name">Ben Johnson</h5>
+                        <div class="author">
+                            <h5 class="name">Ubokobong Silas</h5>
                             <p class="title">CEO of Company Inc.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
                         <div class="box">
-                            <p class="description">Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id.</p>
+                            <p class="description">A wonderfully friendly and professional salon, beautiful location and beautifully kept. Great products and product knowledge. Will definitely return.</p>
                         </div>
-                        <div class="author"><img class="rounded-circle" src="https://i.imgur.com/o5uMfKo.jpg">
-                            <h5 class="name">Carl Kent</h5>
+                        <div class="author">
+                            <h5 class="name">Uwana Ekpo</h5>
                             <p class="title">Founder of Style Co.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
                         <div class="box">
-                            <p class="description">Aliquam varius finibus est, et interdum justo suscipit. Vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
+                            <p class="description">Fantastic, relaxing salon, made special by Michelle and her friendly, professional team and the beautiful setting. I highly recommend it.</p>
                         </div>
-                        <div class="author"><img class="rounded-circle" src="https://i.imgur.com/At1IG6H.png">
-                            <h5 class="name">Emily Clark</h5>
+                        <div class="author">
+                            <h5 class="name">Peace Imoh</h5>
                             <p class="title">Owner of Creative Ltd.</p>
                         </div>
                     </div>
