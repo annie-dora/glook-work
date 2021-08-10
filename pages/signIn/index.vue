@@ -2,7 +2,7 @@
     <div class="container-fluid ">
         <Navbar />
         <div class="container margin_top">
-            <div class="card shadow"  data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+            <div class="card shadow"  >
                  <img class='background-img' src='~/assets/first.jpg'/>
             <div class="card-body">
                 <form @submit.prevent="signup">
